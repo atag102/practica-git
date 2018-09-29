@@ -1,0 +1,215 @@
+-------------------------------------------------------------------------------------------------------
+Estructura basica de una aplicacion de consola en C#:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace nombreDelProyecto
+{
+    class Program
+    {
+        static void Main(string[] args)//Este es el metodo principal que siempre se va a ejcutar 									   //primero tiene el nombre de main 
+        {
+
+        }
+    }
+}
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Imprimir en C#:Su sintaxis es la siguiente.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ejercicio1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        	Console.WriteLine("helloWorld");//Imprimira helloWorld por consola 
+            Console.ReadLine();//Si solo dejaramos Console.WriteLine(cualquier mensaje); entonces la 					   //consola se cerraria demasiado rapido para evitarlo escribimos 							   //Console.ReadLine(); que quiere decir que la consola se mantendra 						   //abierta hasta que nosotros presionemos enter. 
+        }
+    }
+}
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Variables y tipos de datos en C#:La sintaxis para definir una variable en C# es la siguiente.
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ejercicio1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+        (Tipo de dato que almacenara la variable) nombreDeLaVariable=(cualquier valor que sea del mismo tipo de dato de la variable)
+        }
+    }
+}
+
+Los tipos de variables que hay en C# son los siguientes:
+
+Entero con signo: sbyte, short, int,long
+Entero sin signo: byte, ushort, uint,ulong
+Caracteres Unicode: char
+Punto flotante de IEEE: float, double
+Decimal de alta precisión: decimal
+Booleano: bool
+Cadena de caracteres:String
+
+Ejemplo:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ejercicio1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+       		int V1=15;
+       		byte V1=45;
+       		char V3='a';
+       		String V4="hola";
+       		float V5=15.65;
+       		bool V6=true;
+
+       		Console.WriteLine(V1);
+       		Console.WriteLine(V2);
+       		Console.WriteLine(V3);
+       		Console.WriteLine(V4);
+       		Console.WriteLine(V5);
+       		Console.WriteLine(V6);
+        }
+    }
+}
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Operadores de asignacion en C#:Los operadores de asignacion existentes en C# son los siguientes.
+
+1) int V1+=45; //Esto es lo mismo que decir V1=V1+45;
+
+2) int V1-=45; //Esto es lo mismo que decir V1=V1-45;
+
+3) int V1*=45; //Esto es lo mismo que decir V1=V1*45;
+
+4) int V1/=45; //Esto es lo mismo que decir V1=V1/45;
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Operadores aritmeticos en C#:Su sintaxis es la siguiente.
+
+1)Operador +:
+
+int V1=45;
+int V2=35;
+int V3=V1+V2;
+
+2)Operador -:
+
+int V1=45;
+int V2=35;
+int V3=V1-V2;
+
+3)Operador *:
+
+int V1=45;
+int V2=35;
+int V3=V1*V2;
+
+4)Operador /:
+
+double V1=45;
+double V2=35;
+double V3=V1/V2;
+
+Hay una clase que se llama Math que nos permite realizar operaciones mas complejas como la raiz cuadrada de un numero,hallar la potencia de un numero etc.
+
+Para poder recibir un valor de la consola y guardarlo en una variable se hace lo siguiente:
+
+(tipo de valor de la variable) nombreDeLaVariable=Convert.To(tipo de valor de la variable)(Console.readLine());
+
+Ejemplo:
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ejercicio1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+       		int V1,V2,V3;
+
+       		Console.WriteLine("V1= ");
+       		V1=Convert.ToInt(Console.ReadLine);
+       		Console.WriteLine("V2= ");
+       		V2=Convert.ToInt(Console.ReadLine);
+       		V3=V1+V2;
+       		Console.WriteLine("Suma= "+V3);
+       		V3=V1-V2;
+       		Console.WriteLine("Resta= "+V3);
+       		V3=V1*V2;
+       		Console.WriteLine("Multiplicacion= "+V3);
+       		V3=V1/V2;
+       		Console.WriteLine("Division= "+V3);
+        }
+    }
+}
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+Try....Catch en C#:Su sintaxis es la sigueiente.
+
+try{
+	(codigo que se intera ejecutar)
+}catch(){}
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

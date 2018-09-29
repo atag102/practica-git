@@ -1,0 +1,7 @@
+C:\Users\casa\Desktop\Antonio\tutoriales\tutorial de C#\proyecto3\proyecto3\bin\Debug\proyecto3.exe.config
+C:\Users\casa\Desktop\Antonio\tutoriales\tutorial de C#\proyecto3\proyecto3\bin\Debug\proyecto3.exe
+C:\Users\casa\Desktop\Antonio\tutoriales\tutorial de C#\proyecto3\proyecto3\bin\Debug\proyecto3.pdb
+C:\Users\casa\Desktop\Antonio\tutoriales\tutorial de C#\proyecto3\proyecto3\obj\Debug\proyecto3.csprojAssemblyReference.cache
+C:\Users\casa\Desktop\Antonio\tutoriales\tutorial de C#\proyecto3\proyecto3\obj\Debug\proyecto3.csproj.CoreCompileInputs.cache
+C:\Users\casa\Desktop\Antonio\tutoriales\tutorial de C#\proyecto3\proyecto3\obj\Debug\proyecto3.exe
+C:\Users\casa\Desktop\Antonio\tutoriales\tutorial de C#\proyecto3\proyecto3\obj\Debug\proyecto3.pdb
